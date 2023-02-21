@@ -16,6 +16,7 @@ spec:
     metadata:
       labels:
         app: nginx
+        autoUpdate: 'false'
     spec:
       containers:
       - name: nginx
